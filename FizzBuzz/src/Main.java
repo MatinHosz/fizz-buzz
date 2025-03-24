@@ -16,4 +16,14 @@ public class Main {
             output += cueWord;
         }
     }
+
+    private static void printOutput(int number) {
+        if (output.isEmpty()) {
+            output = Integer.toString(number);
+            System.out.println(output);
+        } else {
+            System.out.println(output);
+        }
+        output = "";
+    }
 }
