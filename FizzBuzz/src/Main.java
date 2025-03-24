@@ -7,7 +7,13 @@ public class Main {
         final int baseNumber_2 = 5;
         final int baseNumber_3 = 7;
 
-        
+        for (int i = 1; i <= 100; i++) {
+            appendCueIfMultiple(baseNumber_1, i, "Fizz");
+            appendCueIfMultiple(baseNumber_2, i, "Buzz");
+            appendCueIfMultiple(baseNumber_3, i, "Choz");
+
+            printOutput(i);
+        }
 
     }
 
